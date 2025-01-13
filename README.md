@@ -105,7 +105,7 @@ This is a UI automation project that automates the user interface (UI) of AccuWe
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/Wikipedia_Mini_Project.git
+    git clone [https://github.com/your-username/Wikipedia_Mini_Project](https://github.com/sojib96/AccuWeather_Automation_Project.git)
     cd Wikipedia_Mini_Project
     ```
 
