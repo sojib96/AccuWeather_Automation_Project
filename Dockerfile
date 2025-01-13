@@ -10,5 +10,3 @@ RUN curl -sL https://github.com/allure-framework/allure2/releases/download/2.24.
 COPY . .
 
 RUN mvn dependency:resolve
-
-

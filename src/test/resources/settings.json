@@ -1,7 +1,7 @@
 {
   "browserName": "chrome",
-  "isRemote": false,
-  "remoteConnectionUrl": "http://localhost:4444/wd/hub",
+  "isRemote": true,
+  "remoteConnectionUrl": "http://selenium-chrome:4444/wd/hub",
   "isElementHighlightEnabled": true,
   "driverSettings": {
     "chrome": {
@@ -19,7 +19,7 @@
         "Performance": "All"
       },
       "pageLoadStrategy": "Normal",
-      "startArguments": []
+      "startArguments": ["--incognito"]
     },
     "edge": {
       "capabilities": {
@@ -101,9 +101,9 @@
   },
   "timeouts": {
     "timeoutImplicit": 0,
-    "timeoutCondition": 60,
-    "timeoutScript": 60,
-    "timeoutPageLoad": 60,
+    "timeoutCondition": 120,
+    "timeoutScript": 120,
+    "timeoutPageLoad": 120,
     "timeoutPollingInterval": 300,
     "timeoutCommand": 120
   },
